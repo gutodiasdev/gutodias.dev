@@ -5,11 +5,11 @@ import { RiGithubFill, RiInstagramLine, RiLinkedinBoxFill } from 'react-icons/ri
 export function HeroSection () {
   return (
     <section className='w-full flex justify-center py-16 md:py-32'>
-      <div className='flex flex-col 2xl:w-[1400px]'>
+      <div className='flex flex-col md:w-[90%] 2xl:w-[1400px]'>
         <span className='md:text-3xl'>
           Desenvolvimento web com qualidade
         </span>
-        <h2 className='text-[2rem] 2xl:text-[8rem] 2xl:leading-[6.5rem] py-4 font-[600] tracking-tighter'>
+        <h2 className='text-[2rem] md:text-[4rem] 2xl:text-[8rem] 2xl:leading-[6.5rem] py-4 font-[600] tracking-tighter'>
           Criando <span className='text-purple-700'>softwares <br></br>e soluções</span>, para negócios.
         </h2>
         <div>

@@ -4,7 +4,7 @@ import { RiWhatsappLine } from 'react-icons/ri'
 export function Header () {
   return (
     <section className='w-full flex justify-center'>
-      <div className='2xl:flex 2xl:w-[1400px] py-8 justify-between'>
+      <div className='md:flex md:w-[90%] 2xl:w-[1400px] py-8 justify-between'>
         <Link href='/'>
           <h1 className='text-5xl font-thin text-slate-800 cursor-pointer'>
             gutodias<span className='text-purple-700 font-bold'>.</span>dev

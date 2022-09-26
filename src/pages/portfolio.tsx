@@ -6,7 +6,7 @@ export default function Portfolio () {
     <>
       <Header />
       <section className='w-full flex justify-center py-16 md:py-32'>
-        <div className='px-8 md:px-0 py-16 flex flex-col gap-8 2xl:w-[1400px]'>
+        <div className='px-8 md:w-[90%] md:px-0 py-16 flex flex-col gap-8 2xl:w-[1400px]'>
           <h2 className="text-[2rem]">
             Estou selecionando os projetos para o portfolio!
           </h2>
