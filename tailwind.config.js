@@ -3,7 +3,11 @@ module.exports = {
   mode: 'jit',
   content: ["./src/**/*.tsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'source-sans': ['"Source Sans Pro"', 'cursive']
+      }
+    },
   },
   plugins: [],
 }
