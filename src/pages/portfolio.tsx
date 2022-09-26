@@ -1,18 +1,16 @@
-import Link from 'next/link'
-import { FaAngleRight } from 'react-icons/fa'
 import { RiGithubFill, RiInstagramLine, RiLinkedinBoxFill } from 'react-icons/ri'
+import { Header } from '../components/Header'
 
-export function HeroSection () {
+export default function Portfolio () {
   return (
-    <section className='w-full flex justify-center py-16 md:py-32'>
-      <div className='flex flex-col 2xl:w-[1400px]'>
-        <span className='md:text-3xl'>
-          Desenvolvimento web com qualidade
-        </span>
-        <h2 className='text-[2rem] 2xl:text-[8rem] 2xl:leading-[6.5rem] py-4 font-[600] tracking-tighter'>
-          Criando <span className='text-purple-700'>softwares <br></br>e soluções</span>, para negócios.
-        </h2>
-        <div>
+    <>
+      <Header />
+      <section className='w-full flex justify-center py-16 md:py-32'>
+        <div className='px-8 md:px-0 py-16 flex flex-col gap-8 2xl:w-[1400px]'>
+          <h2 className="text-[2rem]">
+            Estou selecionando os projetos para o portfolio!
+          </h2>
+          <p>Em breve esta página estará disponível.</p>
           <div className='flex flex-col justify-center py-16 md:py-16 md:flex md:flex-row items-center md:justify-start gap-16'>
             <span className='hidden md:block'>Meus links:</span>
             <div className='flex items-center gap-4 md:gap-8'>
@@ -27,16 +25,8 @@ export function HeroSection () {
               </a>
             </div>
           </div>
-          <div className='md:flex'>
-            <Link href={'/portfolio'} >
-              <div className='bg-purple-700 py-4 px-8 rounded-full text-white flex gap-2 items-center justify-center cursor-pointer'>
-                Veja meu portfolio
-                <FaAngleRight />
-              </div>
-            </Link>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }
