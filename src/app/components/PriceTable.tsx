@@ -3,7 +3,7 @@ import { ContentWrapper } from "./ContentWrapper";
 
 export function PriceTable() {
     return (
-        <ContentWrapper className="bg-[#fbe8de]">
+        <ContentWrapper className="bg-[#fbe8de] py-24">
                 <div className="pb-24 flex flex-col place-items-center gap-y-4">
                     <h2 className="text-5xl font-bold">Tipos de assinatura</h2>
                     <p className="text-2xl font-light">Escolha o plano certo para você</p>
@@ -25,7 +25,7 @@ export function PriceTable() {
                             <h4 className="font-bold">O que está incluso?:</h4>
                             <ul className="list-disc px-6 pt-4 text-sm">
                                 <li>Uma requisição por vez</li>
-                                <li>Prazo normal de entrega 72h</li>
+                                <li>Prazo máximo de entrega 5 dias úteis</li>
                                 <li>Pause ou cancele a qualquer momento</li>
                             </ul>
                         </div>
@@ -46,7 +46,7 @@ export function PriceTable() {
                             <h4 className="font-bold">O que está incluso?:</h4>
                             <ul className="list-disc px-6 pt-4 text-sm">
                                 <li className="font-semibold">Duas requisições por vez</li>
-                                <li>Prazo normal de entrega 72h</li>
+                                <li>Prazo máximo de entrega 5 dias úteis</li>
                                 <li>Pause ou cancele a qualquer momento</li>
                             </ul>
                         </div>
