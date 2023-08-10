@@ -1,3 +1,4 @@
+import { Faq } from "./components/Faq";
 import { Hero } from "./components/Hero";
 import { HeroStripe } from "./components/HeroStripe";
 import { PriceTable } from "./components/PriceTable";
@@ -10,6 +11,7 @@ export default function Home() {
       <HeroStripe />
       <ProductsList />
       <PriceTable />
+      <Faq />
     </main>
   )
 }
