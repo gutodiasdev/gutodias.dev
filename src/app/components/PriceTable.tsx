@@ -3,6 +3,11 @@ import { ContentWrapper } from "./ContentWrapper";
 import { SectionHeading } from "./SectionHeading";
 
 export function PriceTable() {
+    const date = new Date()
+    const year = date.getFullYear()
+    const month = date.getMonth() + 1
+    const monthCheck = month < 10 ? `0${month}` : month
+
     return (
         <ContentWrapper className="bg-[#fbe8de] py-24">
             <SectionHeading title="Tipos de assinatura" subtitle="Escolha o plano certo para você" />
@@ -59,7 +64,7 @@ export function PriceTable() {
                         <div className="px-8 py-2">
                             <h3 className="text-2xl font-bold">Agende uma chamada</h3>
                             <p className="text-sm pt-4 pb-8">Saiba mais sobre como nosso trabalho pode ajudar o seu negócio</p>
-                            <a href="#" className="text-sm font-bold mt-8">Agendar</a>
+                            <a href={`https://calendly.com/gutodiasdev/30min?back=1&month=${year}-${monthCheck}`} className="text-sm font-bold mt-8">Agendar</a>
                         </div>
                     </div>
                     <div className="flex-1 grid justify-items-center py-8">
