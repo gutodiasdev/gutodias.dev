@@ -95,7 +95,7 @@ export function PriceTable() {
                     <p>Precisa de apenas uma landing page ou página estática?</p>
                     <p className="text-3xl font-black">R$ 1.497</p>
                     <a href="https://buy.stripe.com/6oE6pTaAYcwlf0kfZ0" target="_blank">
-                        <button className="bg-black w-full md:w-3/5 lg:w-[320px] text-white font-bold text-xl rounded-lg p-4
+                        <button className="bg-black w-full lg:w-[320px] text-white font-bold text-xl rounded-lg p-4
                         drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)]  hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
                         transition ease-out mt-8">
                             Começar agora
