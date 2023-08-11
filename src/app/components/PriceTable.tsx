@@ -6,7 +6,7 @@ export function PriceTable() {
     return (
         <ContentWrapper className="bg-[#fbe8de] py-24">
             <SectionHeading title="Tipos de assinatura" subtitle="Escolha o plano certo para você" />
-            <section id="price-table" className="grid grid-cols-3">
+            <section id="price-table" className="grid md:grid-cols-3">
                 <div className="bg-white border-2 border-[#fbe8de] p-8">
                     <h3 className="text-2xl font-bold">Standard</h3>
                     <p className="text-sm pt-4">Uma requisição por vez. Pause ou cancele a qualquer momento.</p>
@@ -14,11 +14,13 @@ export function PriceTable() {
                         <p className="text-3xl font-black">R$ 3.997/m</p>
                         <p className="text-xs text-gray-500 font-light">Pause ou cancele a qualquer momento</p>
                     </div>
-                    <button className="bg-black w-full text-white font-bold text-2xl rounded-lg p-6
-                drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)] hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
-                transition ease-out">
-                        Comece agora
-                    </button>
+                    <a href="https://buy.stripe.com/4gwcOhgZmfIx05q3cc" target="_blank">
+                        <button className="bg-black w-full text-white font-bold text-2xl rounded-lg p-6
+                        drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)] hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
+                        transition ease-out">
+                            Comece agora
+                        </button>
+                    </a>
                     <div className="my-12 pt-8 border-t-2 border-[#fbe8de]">
                         <h4 className="font-bold">O que está incluso?:</h4>
                         <ul className="list-disc px-6 pt-4 text-sm">
@@ -35,11 +37,13 @@ export function PriceTable() {
                         <p className="text-3xl font-black">R$ 7.997/m</p>
                         <p className="text-xs text-gray-500 font-light">Pause ou cancele a qualquer momento</p>
                     </div>
-                    <button className="bg-black w-full text-white font-bold text-2xl rounded-lg p-6
-                drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)] hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
-                transition ease-out">
-                        Comece agora
-                    </button>
+                    <a href="https://buy.stripe.com/cN29C5bF2dApaK49AB" target="_blank">
+                        <button className="bg-black w-full text-white font-bold text-2xl rounded-lg p-6
+                    drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)] hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
+                    transition ease-out">
+                            Comece agora
+                        </button>
+                    </a>
                     <div className="my-12 pt-8 border-t-2 border-[#fbe8de]">
                         <h4 className="font-bold">O que está incluso?:</h4>
                         <ul className="list-disc px-6 pt-4 text-sm">
@@ -69,7 +73,7 @@ export function PriceTable() {
                 </div>
             </section>
             <section className="bg-black">
-                <div className="grid place-items-center text-white gap-y-4 py-16">
+                <div className="grid place-items-center text-white gap-y-4 py-16 px-2">
                     <span className="px-2 py-1 bg-yellow-400 text-black text-sm font-medium rounded-full">
                         Personalizado
                     </span>
@@ -83,18 +87,20 @@ export function PriceTable() {
                 </div>
             </section>
             <section className="bg-yellow-400">
-                <div className="grid place-items-center text-black gap-y-4 py-16">
+                <div className="grid place-items-center text-black gap-y-4 py-16 px-2">
                     <span className="px-2 py-1 bg-black text-yellow-400 text-sm font-medium rounded-full">
                         Individual
                     </span>
                     <h3 className="text-4xl font-bold">Desenvolvimento Sob medida</h3>
                     <p>Precisa de apenas uma landing page ou página estática?</p>
                     <p className="text-3xl font-black">R$ 1.497</p>
-                    <button className="bg-black w-full md:w-3/5 lg:w-[320px] text-white font-bold text-xl rounded-lg p-4
-                    drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)]  hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
-                    transition ease-out mt-8">
-                        Fale conosco
-                    </button>
+                    <a href="https://buy.stripe.com/6oE6pTaAYcwlf0kfZ0" target="_blank">
+                        <button className="bg-black w-full md:w-3/5 lg:w-[320px] text-white font-bold text-xl rounded-lg p-4
+                        drop-shadow-[8px_8px_0_rgba(0,0,0,0.25)]  hover:-translate-y-2 hover:drop-shadow-[12px_12px_4px_rgba(0,0,0,0.25)] 
+                        transition ease-out mt-8">
+                            Começar agora
+                        </button>
+                    </a>
                 </div>
             </section>
         </ContentWrapper>

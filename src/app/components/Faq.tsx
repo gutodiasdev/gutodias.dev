@@ -17,7 +17,7 @@ export function Faq() {
                                 <Disclosure.Button className="flex w-full justify-between px-4 py-2 
                             text-left text-sm font-medium focus:outline-none focus-visible:ring 
                             focus-visible:ring-opacity-75 border-b-2 border-black">
-                                    <span className="text-2xl">
+                                    <span className="md:text-2xl">
                                         Por que não contrato um desenvolvedor sênior em tempo integral?
                                     </span>
                                     <LiaAngleDownSolid
@@ -48,7 +48,7 @@ export function Faq() {
                                 <Disclosure.Button className="flex w-full justify-between px-4 py-2 
                             text-left text-sm font-medium focus:outline-none focus-visible:ring 
                             focus-visible:ring-opacity-75 border-b-2 border-black">
-                                    <span className="text-2xl">
+                                    <span className="md:text-2xl">
                                         Existe um limite para quantos pedidos posso ter?
                                     </span>
                                     <LiaAngleDownSolid
@@ -78,7 +78,7 @@ export function Faq() {
                                 <Disclosure.Button className="flex w-full justify-between px-4 py-2 
                             text-left text-sm font-medium focus:outline-none focus-visible:ring 
                             focus-visible:ring-opacity-75 border-b-2 border-black">
-                                    <span className="text-2xl">
+                                    <span className="md:text-2xl">
                                         Com que rapidez receberei meus produtos?
                                     </span>
                                     <LiaAngleDownSolid
@@ -108,7 +108,7 @@ export function Faq() {
                                 <Disclosure.Button className="flex w-full justify-between px-4 py-2 
                             text-left text-sm font-medium focus:outline-none focus-visible:ring 
                             focus-visible:ring-opacity-75 border-b-2 border-black">
-                                    <span className="text-2xl">
+                                    <span className="md:text-2xl">
                                         Como funciona o recurso de pausa?
                                     </span>
                                     <LiaAngleDownSolid
@@ -144,7 +144,7 @@ export function Faq() {
                                 <Disclosure.Button className="flex w-full justify-between px-4 py-2 
                             text-left text-sm font-medium focus:outline-none focus-visible:ring 
                             focus-visible:ring-opacity-75 border-b-2 border-black">
-                                    <span className="text-2xl">
+                                    <span className="md:text-2xl">
                                         E se eu tiver apenas um único pedido?
                                     </span>
                                     <LiaAngleDownSolid
@@ -175,7 +175,7 @@ export function Faq() {
                                 <Disclosure.Button className="flex w-full justify-between px-4 py-2 
                             text-left text-sm font-medium focus:outline-none focus-visible:ring 
                             focus-visible:ring-opacity-75 border-b-2 border-black">
-                                    <span className="text-2xl">
+                                    <span className="md:text-2xl">
                                         Há algum reembolso se eu não gostar do serviço?
                                     </span>
                                     <LiaAngleDownSolid
