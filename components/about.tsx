@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Sobre");
 
   return (
     <motion.section
@@ -17,32 +17,24 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Sobre mim</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        Em 2015, após trabalhar como {" "}
+        <span className="font-medium">militar concursado da FAB</span>, por 5 anos. 
+        Decidi ir em busca do meu sonho de trabalhar com programação, me matriculei no curso
+        <span className="font-medium"> Full-stack PHP Developer</span>, da UpInside. {" "}
+        <span className="italic">Minha parte favorita como programador</span> é poder criar soluções úteis e com impacto positivo. Eu <span className="underline">amo</span> a sensação de encontrar a solução para um problema. Minha stack principal é{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          React, Next.js, Node.js, MongoDB e PostgreSQL
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . Estou bastante familiarizado com Typescript e Prisma. Estou sempre buscando novos conhecimentos e ferramentas que complementem o meu trabalho. Atualmente estou buscando posição de {" "}
+         desenvoldedor de software <span className="font-medium">em tempo integral </span>
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="italic">Quando eu não estou "codando" </span>, gosto de jogar video games, assistir filmes, ir à academia, brincar com meus filhos e cachorro. Adoro {" "}
+        <span className="font-medium">aprender coisas novas</span>. Atualmente, além da faculdade estou constantemente em buscando conhecimento sobre {" "}
+        <span className="font-medium">testes automatizados e arquitetura hexagonal </span>. Também adoro ler.
       </p>
     </motion.section>
   );

@@ -24,17 +24,17 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <Preview>New message from your portfolio site</Preview>
+      <Preview>Nova mensagem do site gutodias.dev</Preview>
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
               <Heading className="leading-tight">
-                You received the following message from the contact form
+                Você recebeu a seguinte mensagem do formulário.
               </Heading>
               <Text>{message}</Text>
               <Hr />
-              <Text>The sender's email is: {senderEmail}</Text>
+              <Text>O email do remetente: {senderEmail}</Text>
             </Section>
           </Container>
         </Body>

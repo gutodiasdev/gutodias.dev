@@ -1,87 +1,114 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import postgateImg from "@/public/postgate.png";
+import sixImg from "@/public/six.png";
+import promogateImg from "@/public/promogate.png";
+import papelPolenImg from "@/public/papel-polen.png";
 
 export const links = [
   {
-    name: "Home",
+    name: "Início",
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Sobre",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Projetos",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Habilidades",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Experiência",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    name: "Contato",
     hash: "#contact",
   },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "FIAP",
+    location: "Remoto",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Inicei os estudos em Análise e Desenvolvimento de Sistemas na melhor faculdade de tecnologia do Brasil.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Hero99 - Desenvolvedor Full Stack Sênior",
+    location: "Home Office",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Trabalhei como desenvolvedor full-stack com javascript num ambiente principamente GCP com Edge Functions e Firestore.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Ago. 2023 - Jan. 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Agência Lab8 - Desenvolvedor Web",
+    location: "Home Office",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Trabalhei como desenvolvedor e gestor do ambiente cloud Digital Ocean, trabalhando e grande parte com WordPress e Node",
+    icon: React.createElement(CgWorkAlt),
+    date: "Ago. 2020 - Mai. 2023",
+  },
+  {
+    title: "meufindi - CTO",
+    location: "Home Office",
+    description:
+      "Trabalhei no modelo de vesting, implementando todo o ecossistema de uma startup. Meu dia-a-dia haviam stacks diversas, como: React, Node e Wordpress",
+    icon: React.createElement(CgWorkAlt),
+    date: "Jan. 2022 - Dez. 2022",
+  },
+  {
+    title: "Techtools - Desenvolvedor Web",
+    location: "Home Office",
+    description:
+      "Trabalhei principalmente com React e Lambda Functions no ambiente AWS. Garantindo a qualidade de código e implementando novas funcionalidades.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Mar. 2022 - Jun. 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Promogate",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Trabalho como desenvolvedor full-stack a 1 ano, utilizando várias tecnologias. Projeto de longo prazo em andamento.",
+    tags: ["React", "Next.js", "Node", "MongoDB", "Tailwind", "Prisma", "PostgreSQL"],
+    imageUrl: promogateImg,
+    projectUrl: "https://dashboard.promogate.app"
   },
   {
-    title: "rmtDev",
+    title: "Postgate",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Trabalho feito com scripts pré-prontos, efetuando manutenção e extensão de acordo com as regras de negócio.",
+    tags: ["PHP", "CodeIgniter", "Node.js", "Sass"],
+    imageUrl: postgateImg,
+    projectUrl: "https://postgate.app/"
   },
   {
-    title: "Word Analytics",
+    title: "Six O'clock",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Site institucional para uma produtora. Implementação do design proposto em wordpress.",
+    tags: ["WordPress", "Elementor", "CSS", "HTML", "Javascript"],
+    imageUrl: sixImg,
+    projectUrl: "https://sixpost.com.br/",
   },
+  {
+    title: "Papel Pólen",
+    description:
+      "Uma marca Suzano. Projeto desenvolvido para servir como landing page de captura de novos clientes.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+    imageUrl: papelPolenImg,
+    projectUrl: "https://papelpolen.com.br/"
+  }
 ] as const;
 
 export const skillsData = [
@@ -96,12 +123,8 @@ export const skillsData = [
   "Tailwind",
   "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Wordpress",
+  "Firebase"
 ] as const;
